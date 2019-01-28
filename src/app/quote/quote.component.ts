@@ -12,6 +12,9 @@ export class QuoteComponent implements OnInit {
     new Quote(3, 'Every moment is a fresh beginning.', 'absolutely yees!'),
     new Quote(4, 'Love For All, Hatred For None.', 'its better to love all people bcz they are Jehovahs creations'),
   ]
+  toogleDetails(index) {
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  }
   constructor() { }
 
   ngOnInit() {
