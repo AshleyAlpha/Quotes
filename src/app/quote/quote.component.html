@@ -1,10 +1,11 @@
 <h1>My Quotes</h1>
-<hr>
-<ul>
+<!-- <hr> -->
+<ol>
   <div *ngFor='let quote of quotes;let i = index'>
     <li>{{quote.name}}</li>
     <button (click)='toogleDetails(i)'>quote's meaning</button>
 
-    <app-quote-details *ngIf="quote.showDescription" [quote]='quote'></app-quote-details>
-</ul>
+    <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='completequote($event,i)'></app-quote-details>
+  </div>
+</ol>
 <p *ngIf='quotes.length > 4'>You have plenty quotes that inspires people!</p>

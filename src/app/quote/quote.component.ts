@@ -7,17 +7,15 @@ import { Quote } from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-    new Quote(1, 'Never regret anything that made you smile.', 'smile is the best make up that a female can wear'),
-    new Quote(2, 'Change the world by being yourself.', 'being your self helps to discover your self'),
-    new Quote(3, 'Every moment is a fresh beginning.', 'absolutely yees!'),
-    new Quote(4, 'Love For All, Hatred For None.', 'its better to love all people bcz they are Jehovahs creations'),
+    new Quote(1, '"Never regret anything that made you smile."', 'smile is the best make up that a female can wear'),
+    new Quote(2, '"Change the world by being yourself."', 'being your self helps to discover your self'),
+    new Quote(3, '"Every moment is a fresh beginning."', 'absolutely yees!'),
+    new Quote(4, '"Love For All, Hatred For None."', 'its better to love all people bcz they are Jehovahs creations'),
   ]
-  toogleDetails(index) {
-    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  completequote(isComplete, index) {
+    if (isComplete) {
+      this.quotes.splice(index, 1);
+    }
   }
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() { }
 }
