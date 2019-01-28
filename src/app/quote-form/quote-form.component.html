@@ -1,9 +1,9 @@
 <div class="container-fluid">
   <div class="row">
-    <form #quoteForm='ngForm' (ngSubmit)='submitGoal()'>
+    <form #quoteForm='ngForm' (ngSubmit)='submitquote()'>
       <div class="form-group">
 
-        <label for="name">Name</label>
+        <label for="name">Quote</label>
         <input type="text" class="form-control" id="name" [(ngModel)]="newquote.name" name="name" #name="ngModel"
           required>
         <!-- display{{newquote.name}} -->
