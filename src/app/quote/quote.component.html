@@ -1,0 +1,8 @@
+<h1>My Quotes</h1>
+<hr>
+<ul>
+  <div *ngFor='let quote of quotes'>
+    <li>{{quote.name}}</li>
+    <app-quote-details [quote]='quote'></app-quote-details>
+</ul>
+<p *ngIf='quotes.length > 4'>You have plenty quotes that inspires people!</p>
