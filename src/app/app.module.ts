@@ -8,8 +8,8 @@ import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
-// import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+// import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,6 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     QuoteDetailsComponent,
     StrikethroughDirective,
     DateCountPipe,
-    // GoalFormComponent,
     QuoteFormComponent
   ],
   imports: [

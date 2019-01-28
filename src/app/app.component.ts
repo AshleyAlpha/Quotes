@@ -6,7 +6,7 @@ import { Quote } from './quote'
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'Quotes'
+  title = 'Ashleys short life Quotes'
   quotes = [
     new Quote(1, 'Never regret anything that made you smile.', 'smile is the best make up that a female can wear', new Date(2018, 3, 14)),
     new Quote(2, 'Change the world by being yourself.', 'being your self helps to discover your self', new Date(2018, 3, 14)),
