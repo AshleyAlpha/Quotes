@@ -12,9 +12,13 @@ export class QuoteComponent implements OnInit {
     new Quote(3, '"Every moment is a fresh beginning."', 'absolutely yees!', new Date(2018, 3, 14)),
     new Quote(4, '"Love For All, Hatred For None."', 'its better to love all people bcz they are Jehovahs creations', new Date(2018, 3, 14)),
   ]
-  completequote(isComplete, index) {
+  deletequote(isComplete, index) {
     if (isComplete) {
-      this.quotes.splice(index, 1);
+      let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].name}`)
+
+      if (toDelete) {
+        this.quotes.splice(index, 1)
+      }
     }
   }
   ngOnInit() { }
