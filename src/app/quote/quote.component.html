@@ -2,7 +2,7 @@
 <!-- <hr> -->
 <ol>
   <div *ngFor='let quote of quotes;let i = index'>
-    <li>{{quote.name}}</li>
+    <li appStrikethrough>{{quote.name}}</li>
     <button (click)='toogleDetails(i)'>quote's meaning</button>
 
     <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='completequote($event,i)'></app-quote-details>
