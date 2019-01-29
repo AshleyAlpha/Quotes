@@ -1,6 +1,33 @@
-# Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+## Quotes
+
+This is a Quote project where a user is able to add and delete quote with their details and able to see number of upvotes and downvotes.
+
+## Author: 
+
+**Alpha Ashley MBABAZI**
+
+## Mechanics used
+
+* Angular
+* Type Script
+* HTML
+* CSS
+* Bootstrap
+
+## How to accsess it:
+* u first have to have internet connection
+* then open your web browser
+* and type this website: https://ashleyalpha.github.io//
+
+## Contacts
+
+* Tel: +250782387280
+* Email: mashleyalpha@gmail.com
+
+## License
+
+This project is under MIT License. Copyright (c) 2019 Alpha Ashley Mbabazi
 
 ## Development server
 
