@@ -2,7 +2,16 @@
     color:snow;
     background-color:teal;
 }
-#mamie{
-    border: black;
-    background-color: grey;
+.mamie{
+    border: solid black;
+    background-color: turquoise;
+    width: 800px;
+}
+#two{
+    background-color: teal;
+    color:snow;
+}
+#three{
+    background-color: teal;
+    color:snow;
 }
