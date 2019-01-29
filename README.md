@@ -14,6 +14,7 @@ This is a Quote project where a user is able to add and delete quote with their 
 * HTML
 * CSS
 * Bootstrap
+* sudo apps
 
 ## How to accsess it:
 * u first have to have internet connection
