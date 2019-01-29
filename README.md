@@ -18,7 +18,7 @@ This is a Quote project where a user is able to add and delete quote with their 
 ## How to accsess it:
 * u first have to have internet connection
 * then open your web browser
-* and type this website: https://ashleyalpha.github.io//
+* and type this website: https://ashleyalpha.github.io/quotes/
 
 ## Contacts
 
