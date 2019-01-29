@@ -5,7 +5,9 @@ html{
 }
 body{
     color: teal;
-    background-color:sandybrown;
+    background-color:lightgray;
+    font-family: calibri;
+    font-size: 25px;
 }
 .btn btn-primary{
 background-color: teal;
