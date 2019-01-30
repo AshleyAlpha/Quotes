@@ -6,9 +6,9 @@
         <label for="author">Author Name:</label>
         <input type="text" class="form-control" id="author" [(ngModel)]="newquote.author" name="author" #name="ngModel">
         <!-- display{{newquote.name}} -->
-        <div [hidden]="author.valid || author.pristine">
-          <!-- <p> Author Name is Required</p> -->
-        </div>
+        <!-- <div [hidden]="author.valid || author.pristine"> -->
+        <!-- <p> Author Name is Required</p> -->
+        <!-- </div> -->
       </div>
 
 
@@ -16,9 +16,9 @@
         <label for="name">Quote:</label>
         <input type="text" class="form-control" id="name" [(ngModel)]="newquote.name" name="name" #name="ngModel">
         <!-- display{{newquote.name}} -->
-        <div [hidden]="name.valid || name.pristine">
-          <!-- <p> Quote is Required</p> -->
-        </div>
+        <!-- <div [hidden]="name.valid || name.pristine">
+      
+        </div> -->
       </div>
 
 
@@ -26,17 +26,17 @@
         <label for="description">Description:</label>
         <textarea class="form-control" id="description" rows="4" [(ngModel)]="newquote.description" name="description"
           #description="ngModel"></textarea>
-        <div [hidden]="description.valid || description.pristine">
-          <!-- <p> Description is Required</p> -->
-        </div>
+        <!-- <div [hidden]="description.valid || description.pristine"> -->
+        <!-- <p> Description is Required</p> -->
+        <!-- </div> -->
       </div>
 
       <div class="form-group">
         <label for="complete">Completion:</label>
         <input type='date' id="complete" [(ngModel)]="newquote.completeDate" name="completeDate" #completeDate="ngModel">
-        <div [hidden]="completeDate.valid || completeDate.pristine">
-          <!-- <p> Complete Date is Required</p> -->
-        </div>
+        <!-- <div [hidden]="completeDate.valid || completeDate.pristine"> -->
+        <!-- <p> Complete Date is Required</p> -->
+        <!-- </div> -->
       </div>
       <button type="submit" class="addquote">Add Quote</button>
       <!-- <form (ngSubmit)='submitquote()' #quoteForm='ngForm'></form> -->
